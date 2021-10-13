@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c=0,i,n;
+    printf("Enter a vlaue of n  = ");
+    scanf("%d",&n);
+            printf("fibonacci series = ");
+    a=0;
+        b=1;
+        c=0;
+    for(i=1;i<=n;i++)
+    {           printf("%d ",c);  
+
+        a=b;
+        b=c;
+        c=a+b;  
+    }
